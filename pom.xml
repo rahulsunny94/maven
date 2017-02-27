@@ -14,15 +14,7 @@
     <module>multi-module</module>
     <module>single-module</module>
   </modules>
-  <build>
-    <plugins>
-    <plugin>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.2</version>
-    </plugin>
-    </plugins>
-  </build>
+ 
 
   <prerequisites>
     <maven>3.0.3</maven>
